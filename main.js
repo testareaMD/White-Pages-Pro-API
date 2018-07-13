@@ -11,7 +11,7 @@ const nameZip = [
     "Zip": 21128,
     "StateVoterID": "NULL"
   }];
-  $(document).ready(
+  $(document).ready(function(){
     nameZip.forEach(function(res){
       let firstName = res.firstName;
       let lastName = res.lastName;
@@ -27,4 +27,4 @@ const nameZip = [
         });
       };
     });
-  );
+  });
