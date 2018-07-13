@@ -11,7 +11,7 @@ const nameZip = [
     "Zip": 21128,
     "StateVoterID": "NULL"
   }];
-  nameZip.forEach(function paperSurvey(array){
+  nameZip.forEach(function(array){
       let firstName = array.firstName;
       let lastName = array.lastName;
       let zip = array.Zip;
@@ -19,4 +19,3 @@ const nameZip = [
       let url_string = "https://proapi.whitepages.com/3.0/person?name=" + firstName + '+' + lastName + "&address.postalcode=" + zip + "&address.state.code=MD&api_key=APIKEY";
       console.log(url_string);
     });
-paperSurvey(nameZip);
