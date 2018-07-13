@@ -1,17 +1,17 @@
-$(document).ready(
-  const nameZip = [
-    {
-      "firstName": "Sarah",
-      "lastName": "McDonald",
-      "Zip": 20678,
-      "StateVoterID": "NULL"
-    },
-    {
-      "firstName": "Rick",
-      "lastName": "Crabbe",
-      "Zip": 21128,
-      "StateVoterID": "NULL"
-    }];
+const nameZip = [
+  {
+    "firstName": "Sarah",
+    "lastName": "McDonald",
+    "Zip": 20678,
+    "StateVoterID": "NULL"
+  },
+  {
+    "firstName": "Rick",
+    "lastName": "Crabbe",
+    "Zip": 21128,
+    "StateVoterID": "NULL"
+  }];
+  $(document).ready(
     nameZip.forEach(function(res){
       let firstName = res.firstName;
       let lastName = res.lastName;
