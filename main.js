@@ -25,6 +25,6 @@ const nameZip = [
           let name = person.name;
           $('#results').append('<tr><td>' + name + '</td><td>' + street1 + '</td><td>' + street2 + '</td><td>' + city + '</td><td>' + zip + '</td></tr>');
         });
-      }
+      };
     });
-  });
+  );
